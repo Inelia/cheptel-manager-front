@@ -21,3 +21,17 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+_site/*
+
+.sass-cache
+node_modules
+
+.ruby-version
+.bundle
+
+src/icons/forkawesome/
+src/scripts/
+
+*~
+*swp

@@ -1,0 +1,19 @@
+.footer{
+  background-color: $bg-dark-color;
+  color:$light-grey;
+  display:flex;
+  justify-content: space-around;
+
+}
+.footer section{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.footer ul{
+  padding-inline-start: 0px;
+  font:$list-footer;
+}
+.footer .fa {
+  margin-right:1rem
+}
