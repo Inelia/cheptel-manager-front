@@ -1,3 +1,14 @@
+body{
+  min-height: 100vh;
+  height: 100%;
+}
+
 ul{
   list-style-type: none;
+}
+a,a:visited{color:inherit}
+
+.brand-point{
+  color:$blue;
+  font: 800 48px $titles-font-family;
 }

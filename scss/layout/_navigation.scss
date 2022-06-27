@@ -1,0 +1,7 @@
+.navigation{
+  font:$btn-font $titles-font-family;
+  color:$header-links-color;
+}
+.navigation a:not(:last-child){
+  padding:0 16px
+}

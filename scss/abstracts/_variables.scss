@@ -10,7 +10,9 @@
 /// @type List
 $text-font-info: 600 18px "Mulish", sans-serif;
 $list-footer: 400 14px "Karla", sans-serif;
-$titles-font-familly: "Mulish", sans-serif;
+$titles-font-family: "Mulish", sans-serif;
+$text-form: 600 16px "Mulish", sans-serif;
+$btn-font:500 16px "Mulish", sans-serif;
 
 /// Code (monospace) font family
 /// @type List
@@ -18,8 +20,8 @@ $code-font-stack: 'Courier New', 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono',
 
 
 
-
-$blue:rgb(11, 190, 242);
+$bluey:rgb(77,160,252); //4da0fc
+$blue:rgb(11, 190, 242); //0BBEF2
 
 
 
@@ -53,6 +55,9 @@ $bg-color: #E5E5E5;
 $bg-dark-color: #252B3B;
 
 
+
+$header-links-color:#6D7D8B;
+$btn-header-color:$bluey;
 
 
 /// Container's maximum width
