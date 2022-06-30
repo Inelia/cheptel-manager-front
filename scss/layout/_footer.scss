@@ -1,8 +1,12 @@
 .footer{
+  width: 100%;
+  position:relative;
+  bottom: 0;
   background-color: $bg-dark-color;
   color:$light-grey;
   display:flex;
   justify-content: space-around;
+  padding:1rem 0.5rem;
 
 }
 .footer section{
@@ -14,6 +18,18 @@
   padding-inline-start: 0px;
   font:$list-footer;
 }
-.footer .fa {
-  margin-right:1rem
+
+.footer .fa-arrow-right{
+  color:$blue;
+  padding:1rem;
+}
+.newsletter{
+  width:20%;
+  padding: 1rem 0.5rem
+}
+.footer__social-media li{
+  padding:0.5rem 0;
+}
+.footer__social-media .fa{
+  padding:0 0.5rem;
 }
