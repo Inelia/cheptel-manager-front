@@ -13,6 +13,7 @@ $list-footer: 400 14px "Karla", sans-serif;
 $titles-font-family: "Mulish", sans-serif;
 $text-form: 600 16px "Mulish", sans-serif;
 $btn-font:500 16px "Mulish", sans-serif;
+$text-font: 400 18px "Mulish", sans-serif;
 
 /// Code (monospace) font family
 /// @type List
@@ -22,6 +23,7 @@ $code-font-stack: 'Courier New', 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono',
 
 $bluey:rgb(77,160,252); //4da0fc
 $blue:rgb(11, 190, 242); //0BBEF2
+$dark-bluey:rgb(5, 93, 190); //055DBE
 
 
 
@@ -29,6 +31,7 @@ $blue:rgb(11, 190, 242); //0BBEF2
 /// @type Color
 $light-grey: rgb(237, 237, 237) !default;
 
+//rgb(184,184,184)
 /// Medium grey
 /// @type Color
 $mid-grey: rgb(153, 153, 153) !default;
@@ -41,7 +44,7 @@ $dark-grey: rgb(68, 68, 68) !default;
 /// Copy text color
 /// @type Color
 $text-color: rgb(34, 34, 34) !default;
-
+$text-error:rgb(255, 61, 0);
 /// Main brand color
 /// @type Color
 $brand-color: $blue !default;
@@ -49,6 +52,7 @@ $brand-color: $blue !default;
 /// Main background color
 /// @type Color
 $bg-color: #E5E5E5;
+
 
 /// Secondary background color
 /// @type Color
