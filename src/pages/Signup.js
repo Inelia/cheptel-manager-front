@@ -1,9 +1,14 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import SignupForm from '../components/Forms/SignupForm';
-
+import Header from '../components/Header/Header';
+import Footer from '../components/Footer/Footer';
 function Signup() {
+  useEffect(() => {
+    document.body.style.backgroundColor = 'white';
+  }, []);
   return (
     <section className="login-container">
+      <Header />
       <h2>
         Cheptel Manager<span className="brand-point">.</span>
       </h2>
@@ -12,9 +17,10 @@ function Signup() {
         maintenant
       </p>
       <p className="title-info">
-        14 jour d’essai gratuit. Carte banquaire non requi
+        14 jour d’essai gratuit. Carte bancaire non requis
       </p>
       <SignupForm />
+      <Footer />
     </section>
   );
 }

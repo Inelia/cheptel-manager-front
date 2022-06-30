@@ -1,3 +1,14 @@
-body{
-  background-color: $bg-color;
+.home{
+  background: url(./assets/img/herd-of-sheep-grazing-on-grass-covered-field-captured-on-sunny-day.jpg) rgba(0, 0, 0, 0.372) no-repeat;
+  margin:-100px 0 0;
+  padding:100px 0 0;
+  height:500px;
+  background-clip: content-box;
+  // height: 1500px;
+  background-position-x: 40%;
+  background-position-y: center;
+  background-blend-mode:darken;
+}
+.presentation{
+  color:white;
 }
