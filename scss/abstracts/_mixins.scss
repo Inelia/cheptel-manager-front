@@ -45,3 +45,9 @@
 //   $blue:blue($rgb-color);
 
 // }
+
+@mixin btn-outline ($color,$width,$bg-color:transparent){
+  border:$width solid $color;
+	color:$color;
+  background-color:$bg-color;
+}

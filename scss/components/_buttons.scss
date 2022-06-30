@@ -17,9 +17,8 @@
 	background-color: transparent;
 }
 .btn-blue{
-		border: solid 2px color.scale($btn-header-color, $alpha:-58%);
 	border-radius: 5px;
-	background-color:color.scale($btn-header-color, $alpha:-90%)
+	@include btn-outline(color.scale($btn-header-color, $alpha:-58%),'2px',color.scale($btn-header-color, $alpha:-90%));
 }
 .btn-icon{
 	padding:0;
@@ -39,8 +38,7 @@ a.btn{
 
 }
 .btn-ouline{
-	border:1px solid $mid-grey;
-	color:$mid-grey
+	@include btn-outline($mid-grey,'1px')
 }
 #connectWithGoogleButton{
 	display: flex;

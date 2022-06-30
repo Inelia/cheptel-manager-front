@@ -1,11 +1,11 @@
 import React from 'react';
-import { useState, useEffect } from 'react';
-// import ChoreChart from '../components/ChoreChart/ChoreChart.js';
-// import ChoreForm from '../components/ChoreForm/ChoreForm.js';
+import { useEffect } from 'react';
 import LoginForm from '../components/Forms/LoginForm.js';
 
 function Login() {
-
+  useEffect(() => {
+    document.body.style.backgroundColor = 'white';
+  }, []);
   return (
     <section className="login-container">
       <h2>

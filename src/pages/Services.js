@@ -1,6 +1,7 @@
 import React from 'react';
 import { useState, useEffect } from 'react';
-
+import Header from '../components/Header/Header';
+import Footer from '../components/Footer/Footer';
 function Services() {
   // const [login, setLogin] = useState(true);
   // useEffect(() => {
@@ -59,8 +60,10 @@ function Services() {
   }, []); // le tableau vide évite la réinitialisation de la fonction et son rechargement infini
   return (
     <>
+      <Header />
       <button onClick={() => {}}>Log In</button>
       <button onClick={() => {}}>Log Out</button>
+      <Footer />
     </>
   );
 }
