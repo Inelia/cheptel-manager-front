@@ -28,7 +28,7 @@ a.btn{
 	text-decoration: none;
 }
 .btn-pill{
-		border-radius:23px;
+		border-radius:17px;
 
 }
 .btn-blue-white{
@@ -37,4 +37,13 @@ a.btn{
 	width:100%;
 	border:1px solid $mid-grey;
 
+}
+.btn-ouline{
+	border:1px solid $mid-grey;
+	color:$mid-grey
+}
+#connectWithGoogleButton{
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
 }

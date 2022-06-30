@@ -7,6 +7,7 @@ import Account from './pages/Account.js';
 import Login from './pages/Login.js';
 import Contact from './pages/Contact';
 import Signup from './pages/Signup';
+import Services from './pages/Services';
 // import LoginForm from './pages/LoginForm.js';
 // import { Search } from 'react-router-dom';
 // import SearchPage from './pages/Search.js';
@@ -19,10 +20,11 @@ function App() {
         <Header />
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/login" element={<Login />} />
-          <Route path="/account" element={<Account />} />
-          <Route path="/contact" element={<Contact />} />
-          <Route path="/signup" element={<Signup />} />
+          <Route path="login" element={<Login />} />
+          <Route path="account" element={<Account />} />
+          <Route path="contact" element={<Contact />} />
+          <Route path="signup" element={<Signup />} />
+          <Route path="services" element={<Services />} />
           {/* <Route path="/search/:input" element={<Search />} /> */}
           {/* <Route path="/*" element={<Home />} /> */}
           {/* <Route path="/persons/:id" element={<PersonDetails />} /> */}
