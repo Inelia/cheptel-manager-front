@@ -9,7 +9,7 @@ function Navigation() {
       <Link to="/services">Services</Link>
       <Link to="/contact">Contact</Link>
       <Link to="/login">Connexion</Link>
-      <Link to="/signup" className="btn btn-blue">
+      <Link to="/signup" className="btn btn-outline">
         Inscription
       </Link>
       <Outlet />

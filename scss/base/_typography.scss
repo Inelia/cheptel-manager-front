@@ -1,5 +1,8 @@
 // Mulish 
       //  400 regular
+      //  500 medium
+      //  600 semi-bold/demi-bold
+      //  700 bold
       //  800 extra-bold
 
 h1,h2,h3,h4,h5,h6{
@@ -12,8 +15,9 @@ h2{
   text-align:center;
   font:800 62px $titles-font-family;
 }
-h3{
-  font: 800 44px;
+h4{
+  font: 800 44px $titles-font-family;
+  // line-height: 163.2%;
 }
 
 //label mulish reg 17 000
@@ -25,6 +29,9 @@ input:placeholder-shown{
 .subtitle{
   font:400 30px $titles-font-family;
 }
+.btn{
+  font:$btn-font;
+}
 .btn-submit{
   font: 400 22px $titles-font-family;
 }
@@ -33,4 +40,16 @@ input:placeholder-shown{
 }
 .title-info{
   font:400 17px $titles-font-family;
+}
+.header .navigation{
+  font: 700 16px $titles-font-family;
+  line-height: 175.7%;
+}
+.presentation h2{
+  font:400 48px "Work Sans";
+  text-align: start;
+}
+.presentation h3{
+  font: 700 18px $titles-font-family;
+  line-height: 163.2%;
 }

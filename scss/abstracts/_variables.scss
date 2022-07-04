@@ -12,7 +12,7 @@ $text-font-info: 600 18px "Mulish", sans-serif;
 $list-footer: 400 14px "Karla", sans-serif;
 $titles-font-family: "Mulish", sans-serif;
 $text-form: 600 16px "Mulish", sans-serif;
-$btn-font:500 16px "Mulish", sans-serif;
+$btn-font:700 16px "Mulish", sans-serif;
 $text-font: 400 18px "Mulish", sans-serif;
 
 /// Code (monospace) font family
@@ -45,6 +45,7 @@ $dark-grey: rgb(68, 68, 68) !default;
 /// @type Color
 $text-color: rgb(34, 34, 34) !default;
 $text-error:rgb(255, 61, 0);
+$header-color:$light-grey;
 /// Main brand color
 /// @type Color
 $brand-color: $blue !default;

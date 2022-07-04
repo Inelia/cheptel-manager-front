@@ -1,24 +1,27 @@
 @use "sass:color";
-.myButton {
-  border: 0;
-	background-color:#eb675e;
-	display:inline-block;
-	cursor:pointer;
-	color:#ffffff;
-	font-size:15px;
-	padding:10px 20px;
-	text-decoration:none;
-}
+// .myButton {
+//   border: 0;
+// 	background-color:#eb675e;
+// 	display:inline-block;
+// 	cursor:pointer;
+// 	color:#ffffff;
+// 	font-size:15px;
+// 	padding:10px 20px;
+// 	text-decoration:none;
+// }
 .btn{
 	padding:16px 32px;
-	font:$btn-font;
 	color:$btn-header-color;
 	border:none;
 	background-color: transparent;
 }
 .btn-blue{
 	border-radius: 5px;
-	@include btn-outline(color.scale($btn-header-color, $alpha:-58%),'2px',color.scale($btn-header-color, $alpha:-90%));
+	// @include btn-outline(color.scale($btn-header-color, $alpha:-58%),'2px',color.scale($btn-header-color, $alpha:-90%));
+	color:#ffffff;
+	background-color:$bluey;
+	// width:100%;
+	border:1px solid $mid-grey;
 }
 .btn-icon{
 	padding:0;
@@ -37,8 +40,8 @@ a.btn{
 	border:1px solid $mid-grey;
 
 }
-.btn-ouline{
-	@include btn-outline($mid-grey,'1px')
+.btn-outline{
+	@include btn-outline($header-color,2px, 4px)
 }
 #connectWithGoogleButton{
 	display: flex;
