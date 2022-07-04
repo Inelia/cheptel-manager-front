@@ -2,4 +2,9 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  color:$header-color;
+}
+.header h1{
+  padding:0;
+  margin:-18px 0 0;
 }

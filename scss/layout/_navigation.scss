@@ -1,7 +1,14 @@
 .navigation{
-  font:$btn-font $titles-font-family;
-  color:$header-links-color;
+  font:$btn-font;
+  color:$header-color;
 }
 .navigation a:not(:last-child){
-  padding:0 16px
+  padding:0 16px;
+}
+.navigation a:last-child{
+  margin-left:16px;
+}
+.navigation a:nth-child(4){
+  // padding:inherit 16px;
+padding: inherit 32px;
 }
