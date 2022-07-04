@@ -1,3 +1,59 @@
-body{
-  background-color: $bg-color;
+.home{
+  max-width:100vw;
+  display:flex;
+  flex-direction: column;
+  // padding:0 7rem;
 }
+.presentation{
+  width:100vw;
+  // max-width:100%;
+  background: url(./assets/img/herd-of-sheep-grazing-on-grass-covered-field-captured-on-sunny-day.jpg) rgba(0, 0, 0, 0.4) no-repeat;
+  background-size: auto 1000px;
+  background-clip: border-box;
+  background-size: cover;
+  background-position-x: 10%;
+  background-position-y: center;
+  background-blend-mode:darken;
+  color:white;
+  padding:250px 7rem 10rem;
+  // margin: 0 -7rem;
+  text-align:left;
+}
+.section-text{
+  width:51%;
+}
+.section-text h3{
+  width:70%;
+  margin:2rem 0 3.5rem;
+  display:flex;
+  flex-direction:column;
+}
+
+.arrow-btn{
+  margin-left:10px;
+  background-color: $header-color;
+  vertical-align: middle;
+}
+.btns{
+  display:flex;
+  flex-direction: row;
+  flex-wrap:no-wrap;
+  justify-content: space-between;
+  margin-bottom: 5rem;
+}
+.informations{
+  display:flex;
+  flex-wrap:wrap;
+  justify-content: space-between;
+}
+  .img-doc{
+    background-image: url('./assets/img/ooto_meeting_1.png');
+    background-size: cover;
+    width:calc(642px / 2);
+    height:calc(775px / 2);
+    
+  }
+  .section-text-40{
+    width:40%;
+    padding:7rem 0 0;
+  }

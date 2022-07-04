@@ -15,7 +15,6 @@ const LoginForm = () => {
         password: Yup.string()
           .min(6, 'Le mot de passe doit contenir un minimum de 6 caractères')
           .max(20, 'Le mot de passe doit contenir un maximum de 20 caractères')
-          .required('Password')
           .required('Mot de passe requis'),
       })}
       onSubmit={(values, { setSubmitting }) => {
