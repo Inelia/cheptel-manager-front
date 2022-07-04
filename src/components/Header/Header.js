@@ -11,11 +11,11 @@ function Header(props) {
         top: '0',
         left: '0',
         zIndex: '99999',
-        padding: '0 2rem',
+        padding: '1.2rem 2rem',
         maxWidth: '100vw',
         width: '100%',
         width: '-moz-available',
-        backgroundColor: 'rgba(0, 0, 0, 0.5)',
+        backgroundColor: 'rgba(0, 0, 0, 0.3)',
         color: 'white',
       },
     };

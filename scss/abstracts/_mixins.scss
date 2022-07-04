@@ -1,4 +1,4 @@
-
+@use "sass:color";
 // -----------------------------------------------------------------------------
 // This file contains all application-wide Sass mixins.
 // -----------------------------------------------------------------------------
@@ -46,8 +46,9 @@
 
 // }
 
-@mixin btn-outline ($color,$width,$bg-color:transparent){
+@mixin btn-outline ($color, $width, $radius:0){
   border:$width solid $color;
 	color:$color;
-  background-color:$bg-color;
+  background-color: color.scale($color, $alpha:-90%);
+  border-radius:$radius
 }
